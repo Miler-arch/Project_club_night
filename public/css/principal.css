@@ -1,0 +1,10 @@
+
+input[readonly] {
+    color: rgb(255, 255, 255);
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #3c3d3c;
+    border-radius: 10px;
+    opacity: 1;
+}
